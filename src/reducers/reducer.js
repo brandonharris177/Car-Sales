@@ -1,4 +1,4 @@
-export const intitialState = { 
+const intitialState = { 
     additionalPrice: 0,
     car: {
         price: 26395,
@@ -17,7 +17,7 @@ export const intitialState = {
 
 export function reducer (state, action) {
     switch(action.type) {
-
+        // default: state;
     }
 }
 
